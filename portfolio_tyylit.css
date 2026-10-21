@@ -59,6 +59,70 @@ h2 {
 }
 
 
+/* Selected Work */
+
+.selected-work {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.selected-work h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.section-intro {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+.project-card a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-card h3 {
+    margin: 14px 0 6px;
+    font-size: 1.2rem;
+}
+
+.project-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.project-card img:hover {
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .selected-work {
+        padding: 16px;
+    }
+}
+
 .keskelle {text-align: center;} /*keskitys*/
 
 .keskelle img {width: 100%; /*skaalautuu mobiiliin*/
