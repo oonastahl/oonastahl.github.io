@@ -123,6 +123,14 @@ h2 {
     }
 }
 
+.work-banner {
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto 30px;
+}
+
 .keskelle {text-align: center;} /*keskitys*/
 
 .keskelle img {width: 100%; /*skaalautuu mobiiliin*/
