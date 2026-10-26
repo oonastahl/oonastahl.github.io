@@ -204,3 +204,28 @@ table {
         right: 50px;
     }
     hr {margin-top: 100px;}
+
+/* Lookbook slideshow */
+
+.lookbook-slideshow {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.lookbook-slideshow img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.lookbook-slideshow img.active {
+    opacity: 1;
+}
+

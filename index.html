@@ -32,7 +32,7 @@
 
         <figure class="vasemmalle" id="info"> <!--Info-->
             <div class="flex-container">
-                <div style="flex-basis: 200px"> <img src="hello.png" alt="About" style="width:210px;height:210px;margin-left:15px;"></div>
+                <div style="flex-basis: 200px"> <img src="images/icons/hello.png" alt="About" style="width:210px;height:210px;margin-left:15px;"></div>
                 <div style="flex-basis: 400px"> <p>Hi there, nice to meet you! I'm Oona, an Information Technology student based in Helsinki, Finland. I have a background in beauty and cosmetic business industry.<br>
                     <br>I'm especially into Business driven ICT, UI/UX Design and Data-Analytics. I strive for lifelong learning and chasing my personal and career dreams. As a creative soul, I'm all about discovering new skills in design tools. I enjoy playing with Canva and seeking inspiration from Behance.<br>
                     <br>I pride myself on delivering customer-oriented service.
@@ -45,7 +45,7 @@
     <br>
 
     <figure class="keskelle" id="cv"> <!--CV-->
-            <img src="cv.jpg" alt="Work" style="width:220px;height:220px;margin-left:15px;">
+            <img src="images/icons/cv.jpg" alt="Work" style="width:220px;height:220px;margin-left:15px;">
             <h1>Skills</h1> 
             <table>
                 <tr>
@@ -77,7 +77,7 @@
 <!-- Selected Work -->
 <section class="selected-work" id="work">
 
-    <img src="made.png" alt="My portfolio projects"
+    <img src="images/icons/made.png" alt="My portfolio projects"
          class="work-banner">
 
     <h2>Selected Work</h2>
@@ -106,18 +106,33 @@
             <p>Logo Design · Branding</p>
         </article>
 
+
         <article class="project-card">
             <a href="projects/lookbook.html">
-                <img src="images/lookbook.jpg"
-                     alt="Pages from a brand lookbook">
+                <div class="lookbook-slideshow">
+                    <img src="images/lookbook/1 (1).png"
+                    alt="Cover page from a brand lookbook"
+                    class="active">
+
+                    <img src="images/lookbook/2 (1).png"
+                    alt="Page from Jolie brand lookbook">
+
+                    <img src="images/lookbook/3 (1).png"
+                    alt="Page from Jolie brand lookbook">
+
+                    <img src="images/lookbook/4 (1).png"
+                    alt="Page from Jolie brand lookbook">
+                </div>
+
                 <h3>Lookbook for Jolie</h3>
             </a>
             <p>Art Direction · Editorial Design</p>
         </article>
 
+
         <article class="project-card">
             <a href="projects/social-media.html">
-                <img src="images/website-redesign/IG_stories.png"
+                <img src="images/stories/IG_stories.png"
                      alt="Instagram Stories campaign designs">
                 <h3>Social Media Content for Jolie and Natural Goods Company</h3>
             </a>
@@ -131,7 +146,7 @@
 <br>
 
 <figure class="keskelle"> <!--opinnot-->
-        <img src="study.png" alt="studies" style="width:260px;height:260px;margin-left:15px;">
+        <img src="images/icons/study.png" alt="studies" style="width:260px;height:260px;margin-left:15px;">
         <article>
             <h2>Information Technology Student</h2>Haaga-Helia <br>August 2024 - Present<br><br>
             <img src="https://s2.svgbox.net/materialui.svg?ic=school&color=8fb4c7" alt="graduationcap" width="32" height="32"><br>
@@ -146,7 +161,7 @@
         <figure class="keskelle" id="contact"> <!--contact-->
         <article>
             <section>
-                <img src="contact.png" alt="contactme" style="width:240px;height:240px;margin-left:15px;">
+                <img src="images/icons/contact.png" alt="contactme" style="width:240px;height:240px;margin-left:15px;">
                 <!--somekanavat-->
                     <h1>thank you</h1>
                     <img src="https://s2.svgbox.net/hero-solid.svg?ic=heart&color=8fb4c7" alt="heart" width="22" height="22"> <br>
@@ -168,6 +183,9 @@
     &copy; 2024. Oona Ståhl 
     </footer>
     </main>
+
+    <script src="script.js"></script>
+
     </body>
 
 
